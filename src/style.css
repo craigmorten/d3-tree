@@ -1,0 +1,34 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.node {
+    cursor: pointer;
+}
+
+.node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 3px;
+}
+
+.node text {
+    font: 12px sans-serif;
+}
+
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 2px;
+    cursor: pointer;
+}
+
+.backward {
+    fill: none;
+    stroke: rgb(154, 81, 250);
+    stroke-width: 2px;
+}
+
+.svg {
+    border: 1px solid #111;
+}
